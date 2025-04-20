@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+ <html lang="id">
+ <head>
+     <meta charset="UTF-8">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <title>Data Anime Terpopuler</title>
+     <style>
+         .data {
+             width: 90%;
+             margin: 0 auto;
+             border-collapse: collapse;
+             font-family: 'Segoe UI', sans-serif;
+             box-sizing: border-box;
+         }
+ 
+         .data th, .data td {
+             text-align: left;
+             padding: 10px;
+         }
+ 
+         .data th {
+             background-color: #f2f2f2;
+             font-weight: bold;
+             color: #333;
+         }
+ 
+         .data tr:nth-child(even) {
+             background-color: #f9f9f9;
+         }
+ 
+         .data tr:hover {
+             background-color: #f1f1f1;
+         }
+ 
+         .data td {
+             white-space: nowrap;
+         }
+ 
+         h2 {
+             text-align: center; /* Menjaga judul tetap di tengah */
+             font-size: 36px;    /* Membesarkan ukuran font */
+             margin-top: 20px;   /* Memberi jarak di atas judul */
+             font-weight: bold;
+         }
+     </style>
+ </head>
+ <body>
+ 
+     <h2>Data Anime Terpopuler</h2>
+ 
+     <table class="data">
+         <thead>
+             <tr>
+                 <th>Judul</th>
+                 <th>Genre</th>
+                 <th>Tahun Rilis</th>
+                 <th>Studio</th>
+                 <th>Rating</th>
+             </tr>
+         </thead>
+         <tbody>
+             <tr>
+                 <td>Naruto</td>
+                 <td>Action, Adventure</td>
+                 <td>2002</td>
+                 <td>Studio Pierrot</td>
+                 <td>8.3</td>
+             </tr>
+             <tr>
+                 <td>Attack on Titan</td>
+                 <td>Action, Fantasy</td>
+                 <td>2013</td>
+                 <td>WIT Studio</td>
+                 <td>9.0</td>
+             </tr>
+             <tr>
+                 <td>One Piece</td>
+                 <td>Adventure, Action</td>
+                 <td>1999</td>
+                 <td>Toei Animation</td>
+                 <td>8.7</td>
+             </tr>
+             <tr>
+                 <td>Demon Slayer</td>
+                 <td>Action, Supernatural</td>
+                 <td>2019</td>
+                 <td>ufotable</td>
+                 <td>8.6</td>
+             </tr>
+             <tr>
+                 <td>My Hero Academia</td>
+                 <td>Action, Superhero</td>
+                 <td>2016</td>
+                 <td>Bones</td>
+                 <td>7.9</td>
+             </tr>
+             <tr>
+                 <td>Fullmetal Alchemist: Brotherhood</td>
+                 <td>Action, Drama</td>
+                 <td>2009</td>
+                 <td>Bones</td>
+                 <td>9.1</td>
+             </tr>
+             <tr>
+                 <td>Jujutsu Kaisen</td>
+                 <td>Action, Supernatural</td>
+                 <td>2020</td>
+                 <td>MAPPA</td>
+                 <td>8.5</td>
+             </tr>
+             <tr>
+                 <td>Spy x Family</td>
+                 <td>Comedy, Action</td>
+                 <td>2022</td>
+                 <td>WIT Studio</td>
+                 <td>8.2</td>
+             </tr>
+             <tr>
+                 <td>Chainsaw Man</td>
+                 <td>Action, Horror</td>
+                 <td>2022</td>
+                 <td>MAPPA</td>
+                 <td>8.4</td>
+             </tr>
+             <tr>
+                 <td>Bleach</td>
+                 <td>Action, Supernatural</td>
+                 <td>2004</td>
+                 <td>Studio Pierrot</td>
+                 <td>7.8</td>
+             </tr>
+             <tr>
+                 <td>Tokyo Ghoul</td>
+                 <td>Horror, Drama</td>
+                 <td>2014</td>
+                 <td>Studio Pierrot</td>
+                 <td>7.7</td>
+             </tr>
+             <tr>
+                 <td>Sword Art Online</td>
+                 <td>Adventure, Sci-Fi</td>
+                 <td>2012</td>
+                 <td>A-1 Pictures</td>
+                 <td>7.5</td>
+             </tr>
+             <tr>
+                 <td>Black Clover</td>
+                 <td>Action, Fantasy</td>
+                 <td>2017</td>
+                 <td>Studio Pierrot</td>
+                 <td>7.8</td>
+             </tr>
+             <tr>
+                 <td>Haikyuu!!</td>
+                 <td>Sports, Drama</td>
+                 <td>2014</td>
+                 <td>Production I.G</td>
+                 <td>8.6</td>
+             </tr>
+             <tr>
+                 <td>Death Note</td>
+                 <td>Thriller, Supernatural</td>
+                 <td>2006</td>
+                 <td>Madhouse</td>
+                 <td>9.0</td>
+             </tr>
+         </tbody>
+     </table>
+ 
+ </body>
+ </html>
+ 
